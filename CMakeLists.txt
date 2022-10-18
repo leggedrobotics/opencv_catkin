@@ -14,7 +14,7 @@ ExternalProject_Add(${CONTRIB_NAME}
   # Uncomment below for Melodic
   #URL https://github.com/opencv/opencv_contrib/archive/3.4.11.zip
   # Uncomment below for Noetic
-  URL https://github.com/opencv/opencv_contrib/archive/refs/tags/4.2.0.zip
+  URL https://github.com/opencv/opencv_contrib/archive/refs/tags/4.6.0.zip
   SOURCE_DIR ${CONTRIB_NAME}_src
   UPDATE_COMMAND ""
   CONFIGURE_COMMAND ""
@@ -30,7 +30,7 @@ ExternalProject_Add(opencv_src
   # Uncomment below for Melodic
   #URL https://github.com/opencv/opencv/archive/3.4.11.zip
   # Uncomment below for Noetic
-  URL https://github.com/opencv/opencv/archive/refs/tags/4.2.0.zip
+  URL https://github.com/opencv/opencv/archive/refs/tags/4.6.0.zip
   UPDATE_COMMAND ""
   SOURCE_DIR ${OPENCV_SRC_PATH}
   BINARY_DIR ${OPENCV_BUILD_PATH}
